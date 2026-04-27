@@ -1,437 +1,438 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SigmaPrint.com</title>
+    <meta name="description" content="SigmaPrint — Jasa sablon kaos, hoodie, dan apparel custom terbaik. Desain sendiri, produksi cepat, kualitas premium. Order sekarang!">
+    <meta name="keywords" content="sablon kaos, sablon hoodie, jasa sablon, custom apparel, cetak kaos, SigmaPrint">
+    <title>SigmaPrint — Custom Apparel & Sablon Premium</title>
+    <link rel="icon" href="asset/logos02.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="asset/logos02.png">
 </head>
 <body>
-    <div class="navbar">
-        <div class="nav-right">
-            <div class="nav-item"><img src="asset/logos2.png" height="50" width="150" class="logo"></div>
+
+    <!-- ====== NAVBAR ====== -->
+    <nav class="navbar" id="navbar">
+        <a href="#hero" class="nav-brand">
+            <img src="asset/logos2.png" alt="SigmaPrint Logo" height="40">
+        </a>
+
+        <div class="nav-links" id="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#features">Layanan</a>
+            <a href="#about">About</a>
+            <a href="#products">Product</a>
+            <a href="#testimonials">Review</a>
+            <a href="#products" class="nav-cta">Order Now</a>
         </div>
-        <div class="search-box">
-            <input type="text" placeholder="type word here"
-            id="inp-word">
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- ====== HERO ====== -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="section-label">Custom Apparel Printing</span>
+                <h1>Tampil Berbeda dengan <span>Desain Sendiri</span></h1>
+                <p>Wujudkan kreativitasmu di atas kain. Sablon premium dengan teknologi terkini — kirim desain, kami cetak dalam satu hari.</p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary">
+                        <i class="fas fa-shopping-bag"></i> Order Sekarang
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        <i class="fas fa-play-circle"></i> Tentang Kami
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="asset/hero.png" alt="Koleksi kaos sablon custom SigmaPrint">
+            </div>
         </div>
-       <div class="nav-left">
-           <div class="nav-item" id="btn-home">Home</div>
-           <div class="nav-item" id="btn-about">About</div>
-           <div class="nav-item" id="btn-prdc">product</div>
-           <div class="nav-item" id="testimonis">Review</div>
-           <div class="nav-item"><strong>Sign Up</strong></div>
-
-
-       </div>
-       <div class="nav-center">
-           <div class="nav-item"> <img src="asset/michie-jkt48.gif" class="pp"></div>
-       </div>
-       
-   </div>
-
-    <section id="hero-header">
-        <div class="txtbtn">
-            <h1>TAMPIL BERBEDA DENGAN DESAIN SENDIRI</h1>
-            <button class="btn-home" onclick="bukaHalamanBaru()">Order Now</button>
-        </div>
-        <img src="asset/hero.png" >
-
     </section>
 
-    <section class="about-card-container">
-      <div class="about-card">
-          <div class="card-icon">
-              <img src="asset/arrows.png" width="52" height="52">
-          </div>
-          <h3 class="h4 card-title">Mudah dan efisien</h3>
-          <p class="card-text">
-               kirim desain dan tunggu hasilnya
-          </p>
-      </div>
-
-      <div class="about-card">
-          <div class="card-icon">
-              <img src="asset/clock.png" width="52" height="52">
-          </div>
-          <h3 class="h4 card-title">Satu hari jadi</h3>
-          <p class="card-text">
-              produksi yang cepat, tidak perlu menunggu lama
-          </p>
-      </div>
-
-      <div class="about-card">
-          <div class="card-icon">
-              <img src="asset/check.png" width="52" height="52">
-          </div>
-          <h3 class="h4 card-title">Jaminan kepuasan</h3>
-          <p class="card-text">
-              kepuasan anda prioritas kami, garansi mengiringi
-          </p>
-      </div>
-
-      <div class="about-card">
-          <div class="card-icon">
-              <img src="asset/question-mark.png" width="52" height="52">
-          </div>
-          <h3 class="h4 card-title">Konsultasi dari ahli</h3>
-          <p class="card-text">
-              konsultan kami siap membantu anda
-          </p>
-      </div>
-  </section>
-
-
-  <section class="about">
-    <h1 class="heading"><span>about</span> <span class="x">us</span></h1>
-    <div class="row">
-        <div class="content"> 
-            <div class="video-container">
-                <video src="asset/video.mp4" loop autoplay></video>
-                <h3>best fashion printing</h3>
-                <div class="about-us">
-                <p>Sigma Print adalah tempat di mana kreativitas bertemu dengan kain. Kami menghadirkan desain baju yang tak hanya memikat mata, tetapi juga menggambarkan karakter dan cerita di balik setiap jahitan. Dari motif sederhana hingga desain yang lebih kompleks, kami menggabungkan estetika yang elegan dengan sentuhan modern. Setiap baju yang kami cetak adalah kanvas bagi inspirasi dan ekspresi diri. Selamat datang di dunia desain yang tak terbatas, selamat datang di Sigma Print🎨👕</p>
-
+    <!-- ====== FEATURES ====== -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Kenapa Kami?</span>
+                <h2 class="section-title">Keunggulan SigmaPrint</h2>
+                <p class="section-subtitle">Kami memberikan pengalaman sablon terbaik — dari proses pemesanan hingga hasil jadi di tangan Anda.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card anim">
+                    <div class="feature-icon">
+                        <img src="asset/arrows.png" alt="Ikon mudah dan efisien">
+                    </div>
+                    <h3>Mudah & Efisien</h3>
+                    <p>Cukup kirim desain Anda, pilih bahan, dan tunggu hasilnya. Proses simpel tanpa ribet.</p>
+                </div>
+                <div class="feature-card anim d1">
+                    <div class="feature-icon">
+                        <img src="asset/clock.png" alt="Ikon produksi cepat">
+                    </div>
+                    <h3>Satu Hari Jadi</h3>
+                    <p>Produksi express dengan sistem kerja efisien. Pesanan Anda selesai dalam hitungan jam.</p>
+                </div>
+                <div class="feature-card anim d2">
+                    <div class="feature-icon">
+                        <img src="asset/check.png" alt="Ikon jaminan kualitas">
+                    </div>
+                    <h3>Jaminan Kepuasan</h3>
+                    <p>Kepuasan Anda adalah prioritas utama. Garansi kualitas pada setiap produk yang kami cetak.</p>
+                </div>
+                <div class="feature-card anim d3">
+                    <div class="feature-icon">
+                        <img src="asset/question-mark.png" alt="Ikon konsultasi">
+                    </div>
+                    <h3>Konsultasi Ahli</h3>
+                    <p>Tim desainer kami siap membantu menyempurnakan ide Anda menjadi hasil cetakan terbaik.</p>
                 </div>
             </div>
         </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="product-page">
-      <h1 class="heading-pdc"> product</h1>
-      <div class="gallery">
-        
-        <div class="contents">
-            <img src="asset/94.png" alt="" class="imgs">
-            <h3 class="h3">Hoodie custom</h3>
-            <p class="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-            <h6>Rp 100.000</h6>
-            <ul>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star  "></i></li>
-                <li><i class="fa fa-star"></i></li>
-            </ul>
-            <button class="buy-2">Buy now</button>
-        </div>
-
-        <div class="contents">
-            <img src="asset/94.png" alt="" class="imgs">
-            <h3 class="h3">Hoodie custom</h3>
-            <p class="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-            <h6>Rp 150.000</h6>
-            <ul>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star  "></i></li>
-                <li><i class="fa fa-star"></i></li>
-            </ul>
-            <button class="buy-2">Buy now</button>
-        </div>
-
-
-        <div class="contents">
-            <img src="asset/94.png" alt="" class="imgs">
-            <h3 class="h3">Hoodie custom</h3>
-            <p class="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-            <h6>Rp 80.000</h6>
-            <ul>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star  "></i></li>
-                <li><i class="fa fa-star"></i></li>
-            </ul>
-            <button class="buy-2">Buy now</button>
-        </div>
-
-        <div class="contents">
-            <img src="asset/3.png" alt="" class="imgs">
-            <h3 class="h3">cloth</h3>
-            <p class="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-            <h6>Rp 100.000</h6>
-            <ul>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star  "></i></li>
-                <li><i class="fa fa-star"></i></li>
-            </ul>
-            <button class="buy-2">Buy now</button>
-        </div>
-
-
-        <div class="contents">
-            <img src="asset/3.png" alt="" class="imgs">
-            <h3 class="h3">cloth</h3>
-            <p class="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-            <h6>Rp 60.000</h6>
-            <ul>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star  "></i></li>
-                <li><i class="fa fa-star"></i></li>
-            </ul>
-            <button class="buy-2">Buy now</button>
-        </div>
-
-        <div class="contents">
-            <img src="asset/3.png" alt="" class="imgs">
-            <h3 class="h3">cloth</h3>
-            <p class="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-            <h6>Rp 50.000</h6>
-            <ul>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star  "></i></li>
-                <li><i class="fa fa-star"></i></li>
-            </ul>
-            <button class="buy-2">Buy now</button>
-        </div>
-        
-        <div class="contents">
-            <img src="asset/5.png" alt="" class="imgs">
-            <h3 class="h3">kaos couple</h3>
-            <p class="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-            <h6>Rp 75.000</h6>
-            <ul>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star  "></i></li>
-                <li><i class="fa fa-star"></i></li>
-            </ul>
-            <button class="buy-2">Buy now</button>
-        </div>
-
-        <div class="contents">
-            <img src="asset/8.png" alt="" class="imgs">
-            <h3 class="h3">kaos custom</h3>
-            <p class="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-            <h6>Rp 80.000</h6>
-            <ul>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star checked"></i></li>
-                <li><i class="fa fa-star  "></i></li>
-                <li><i class="fa fa-star"></i></li>
-            </ul>
-            <button class="buy-2">Buy now</button>
-        </div>
-
-
-  </section>
-
-
-
-
-  <section id="testimoni">
-    <div class="testimoni-heading">
-        <span>Comments</span>
-        <h1>Clients Says</h1>
-    </div>
-
-    <div class="testimoni-box-container">
-        <div class="testimoni-box">
-            <div class="box-top">
-                <div class="profile">
-                    <div class="profile-img">
-                        <img src="asset/azizi-asadel-azizi.gif" alt="">
+    <!-- ====== ABOUT ====== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-media anim">
+                <video src="asset/video.mp4" loop autoplay muted playsinline></video>
+                <div class="media-badge">Best Fashion Printing</div>
+            </div>
+            <div class="about-text anim d2">
+                <span class="section-label">Tentang Kami</span>
+                <h2>Di mana Kreativitas <span>Bertemu Kain</span></h2>
+                <p>Sigma Print adalah tempat di mana kreativitas bertemu dengan kain. Kami menghadirkan desain baju yang tak hanya memikat mata, tetapi juga menggambarkan karakter dan cerita di balik setiap jahitan. Dari motif sederhana hingga desain yang lebih kompleks, kami menggabungkan estetika yang elegan dengan sentuhan modern.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Klien Puas</div>
                     </div>
-                    <div class="name-user">
-                        <strong>azizee</strong>
-                        <span>@jkt48_zee</span>
+                    <div class="stat-item">
+                        <div class="stat-number">10K+</div>
+                        <div class="stat-label">Produk Tercetak</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4.9</div>
+                        <div class="stat-label">Rating</div>
                     </div>
                 </div>
-                <div class="reviews">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                </div>
-
-            </div>
-            <div class="client-comment">
-                <p>Saya merekomendasikan Sigma Print untuk semua kebutuhan cetak kaos. Desain saya terlihat sempurna!.</p>
             </div>
         </div>
+    </section>
 
-        <div class="testimoni-box">
-            <div class="box-top">
-                <div class="profile">
-                    <div class="profile-img">
-                        <img src="asset/freya-freya-jkt48.gif" alt="">
-                    </div>
-                    <div class="name-user">
-                        <strong>Fre freyaaa</strong>
-                        <span>@jkt48_freya</span>
-                    </div>
-                </div>
-                <div class="reviews">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                </div>
-
+    <!-- ====== PRODUCTS ====== -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Katalog</span>
+                <h2 class="section-title">Produk Kami</h2>
+                <p class="section-subtitle">Pilih produk favorit Anda dan wujudkan desain impian dengan kualitas sablon terbaik.</p>
             </div>
-            <div class="client-comment">
-                <p>Hasil cetakan di Sigma Print sangat presisi. Tidak ada kesalahan pada gambar atau teks yang saya kirim..</p>
+            <div class="products-grid">
+                <div class="product-card anim">
+                    <div class="product-image">
+                        <img src="asset/94.png" alt="Hoodie custom sablon SigmaPrint" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Hoodie Custom</h3>
+                        <p class="product-desc">Hoodie premium fleece tebal dengan sablon DTF berkualitas tinggi. Nyaman & tahan lama.</p>
+                        <div class="product-meta">
+                            <span class="product-price">Rp 100.000</span>
+                            <div class="product-rating">
+                                <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-buy" id="buy-hoodie-1">Order Sekarang</button>
+                </div>
+
+                <div class="product-card anim d1">
+                    <div class="product-image">
+                        <img src="asset/94.png" alt="Hoodie oversize custom" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Hoodie Oversize</h3>
+                        <p class="product-desc">Desain oversize trendy dengan sablon vinyl presisi. Cocok untuk komunitas dan event.</p>
+                        <div class="product-meta">
+                            <span class="product-price">Rp 150.000</span>
+                            <div class="product-rating">
+                                <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-buy" id="buy-hoodie-2">Order Sekarang</button>
+                </div>
+
+                <div class="product-card anim d2">
+                    <div class="product-image">
+                        <img src="asset/94.png" alt="Hoodie eksklusif custom" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Hoodie Eksklusif</h3>
+                        <p class="product-desc">Edisi eksklusif dengan bahan premium dan sablon rubber detail tinggi. Limited edition.</p>
+                        <div class="product-meta">
+                            <span class="product-price">Rp 80.000</span>
+                            <div class="product-rating">
+                                <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-buy" id="buy-hoodie-3">Order Sekarang</button>
+                </div>
+
+                <div class="product-card anim d3">
+                    <div class="product-image">
+                        <img src="asset/3.png" alt="Kaos polos sablon custom" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kaos Polos Custom</h3>
+                        <p class="product-desc">Kaos cotton combed 30s dengan sablon plastisol premium. Lembut dan breathable.</p>
+                        <div class="product-meta">
+                            <span class="product-price">Rp 100.000</span>
+                            <div class="product-rating">
+                                <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-buy" id="buy-kaos-1">Order Sekarang</button>
+                </div>
+
+                <div class="product-card anim">
+                    <div class="product-image">
+                        <img src="asset/3.png" alt="Kaos reguler fit" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kaos Reguler Fit</h3>
+                        <p class="product-desc">Kaos reguler fit dengan pilihan warna beragam. Sablon DTG untuk detail yang tajam.</p>
+                        <div class="product-meta">
+                            <span class="product-price">Rp 60.000</span>
+                            <div class="product-rating">
+                                <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-buy" id="buy-kaos-2">Order Sekarang</button>
+                </div>
+
+                <div class="product-card anim d1">
+                    <div class="product-image">
+                        <img src="asset/3.png" alt="Kaos basic essential" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kaos Basic Essential</h3>
+                        <p class="product-desc">Kaos basic essential dengan sablon rubber halus. Nyaman untuk aktivitas sehari-hari.</p>
+                        <div class="product-meta">
+                            <span class="product-price">Rp 50.000</span>
+                            <div class="product-rating">
+                                <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-buy" id="buy-kaos-3">Order Sekarang</button>
+                </div>
+
+                <div class="product-card anim d2">
+                    <div class="product-image">
+                        <img src="asset/5.png" alt="Kaos couple matching" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kaos Couple</h3>
+                        <p class="product-desc">Set kaos couple matching dengan desain custom. Hadiah sempurna untuk orang tersayang.</p>
+                        <div class="product-meta">
+                            <span class="product-price">Rp 75.000</span>
+                            <div class="product-rating">
+                                <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-buy" id="buy-couple">Order Sekarang</button>
+                </div>
+
+                <div class="product-card anim d3">
+                    <div class="product-image">
+                        <img src="asset/8.png" alt="Kaos custom desain bebas" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kaos Custom Design</h3>
+                        <p class="product-desc">Desain bebas suka-suka Anda. Sablon berkualitas tinggi dengan harga terjangkau.</p>
+                        <div class="product-meta">
+                            <span class="product-price">Rp 80.000</span>
+                            <div class="product-rating">
+                                <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-buy" id="buy-custom">Order Sekarang</button>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="testimoni-box">
-            <div class="box-top">
-                <div class="profile">
-                    <div class="profile-img">
-                        <img src="asset/zweezygif-jkt48.gif" alt="">
-                    </div>
-                    <div class="name-user">
-                        <strong>delynn adeline wijaya</strong>
-                        <span>@jkt48_delynn</span>
-                    </div>
-                </div>
-                <div class="reviews">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                </div>
-
+    <!-- ====== TESTIMONIALS ====== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimoni</span>
+                <h2 class="section-title">Apa Kata Mereka?</h2>
+                <p class="section-subtitle">Kepuasan pelanggan adalah bukti kualitas kami. Berikut cerita dari mereka yang sudah mempercayai SigmaPrint.</p>
             </div>
-            <div class="client-comment">
-                <p>Pelayanan di Sigma Print sangat ramah. Mereka dengan sabar menjawab pertanyaan saya dan membantu memilih opsi terbaik.</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card anim">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Saya merekomendasikan Sigma Print untuk semua kebutuhan cetak kaos. Desain saya terlihat sempurna!</p>
+                    <div class="testimonial-profile">
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="asset/azizi-asadel-azizi.gif" alt="Azizee" loading="lazy">
+                            </div>
+                            <div class="testimonial-name">
+                                <strong>Azizee</strong>
+                                <span>@jkt48_zee</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card anim d1">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Hasil cetakan di Sigma Print sangat presisi. Tidak ada kesalahan pada gambar atau teks yang saya kirim.</p>
+                    <div class="testimonial-profile">
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="asset/freya-freya-jkt48.gif" alt="Freya" loading="lazy">
+                            </div>
+                            <div class="testimonial-name">
+                                <strong>Fre Freyaaa</strong>
+                                <span>@jkt48_freya</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card anim d2">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Pelayanan di Sigma Print sangat ramah. Mereka dengan sabar menjawab pertanyaan saya dan membantu memilih opsi terbaik.</p>
+                    <div class="testimonial-profile">
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="asset/zweezygif-jkt48.gif" alt="Delynn" loading="lazy">
+                            </div>
+                            <div class="testimonial-name">
+                                <strong>Delynn Adeline Wijaya</strong>
+                                <span>@jkt48_delynn</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card anim d3">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Saya suka bagaimana Sigma Print memperhatikan detail. Mereka membantu saya memilih jenis kain yang cocok untuk desain saya.</p>
+                    <div class="testimonial-profile">
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="asset/cynthia-jkt48-cynthia-yaputera.gif" alt="Cynthia" loading="lazy">
+                            </div>
+                            <div class="testimonial-name">
+                                <strong>Cynthia Yaputera</strong>
+                                <span>@jkt48_cynthia</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card anim">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Pilihan produk di Sigma Print sangat beragam. Saya bisa mencetak kaos, jaket, atau bahkan topi dengan desain favorit saya.</p>
+                    <div class="testimonial-profile">
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="asset/trisha-jkt-48.gif" alt="Trisha" loading="lazy">
+                            </div>
+                            <div class="testimonial-name">
+                                <strong>Trisha</strong>
+                                <span>@JKT48_trisha</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card anim d1">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Saya baru saja mencetak kaos dengan desain sendiri di Sigma Print, dan hasilnya luar biasa!</p>
+                    <div class="testimonial-profile">
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="asset/marsha-marshalenathea.gif" alt="Marsha" loading="lazy">
+                            </div>
+                            <div class="testimonial-name">
+                                <strong>Mamatcha Lenathea</strong>
+                                <span>@Jkt48_marsha</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="testimoni-box">
-            <div class="box-top">
-                <div class="profile">
-                    <div class="profile-img">
-                        <img src="asset/cynthia-jkt48-cynthia-yaputera.gif" alt="">
-                    </div>
-                    <div class="name-user">
-                        <strong>Cynthia yaputera</strong>
-                        <span>@jkt48_cynthia</span>
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="asset/logos2.png" alt="SigmaPrint Logo">
+                    <p>Kreativitas bertemu kain. Wujudkan desain impian Anda bersama SigmaPrint — sablon premium, hasil maksimal.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Product</a></li>
+                        <li><a href="#testimonials">Review</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
-                <div class="reviews">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                </div>
-
             </div>
-            <div class="client-comment">
-                <p>Saya suka bagaimana Sigma Print memperhatikan detail. Mereka membantu saya memilih jenis kain yang cocok untuk desain saya</p>
-            </div>
-        </div>
-
-        <div class="testimoni-box">
-            <div class="box-top">
-                <div class="profile">
-                    <div class="profile-img">
-                        <img src="asset/trisha-jkt-48.gif" alt="">
-                    </div>
-                    <div class="name-user">
-                        <strong>onee twoo treheee shaaa</strong>
-                        <span>@JKT48_trisha</span>
-                    </div>
-                </div>
-                <div class="reviews">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                </div>
-
-            </div>
-            <div class="client-comment">
-                <p>Pilihan produk di Sigma Print sangat beragam. Saya bisa mencetak kaos, jaket, atau bahkan topi dengan desain favorit saya.</p>
+            <div class="footer-bottom">
+                <p>Copyright &copy;2024 Designed by <span class="designer">Arya</span></p>
             </div>
         </div>
+    </footer>
 
-        
-        <div class="testimoni-box">
-            <div class="box-top">
-                <div class="profile">
-                    <div class="profile-img">
-                        <img src="asset/marsha-marshalenathea.gif" alt="">
-                    </div>
-                    <div class="name-user">
-                        <strong>Mamatcha Lenathea</strong>
-                        <span>@Jkt48_marsha</span>
-                    </div>
-                </div>
-                <div class="reviews">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                </div>
-
-            </div>
-            <div class="client-comment">
-                <p>Saya baru saja mencetak kaos dengan desain sendiri di Sigma Print, dan hasilnya luar biasa!</p>
-            </div>
-        </div>
-    </div>
-  </section>
-
-
-  <footer>
-    <div class="footerContainer">
-        <div class="socialIcons">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-google-plus"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-        </div>
-        <div class="footerNav">
-            <ul><li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">product</a></li>
-        
-            </ul>
-        </div>
-        
-    </div>
-    <div class="footerBottom">
-        <p>Copyright &copy;2024 Designed by <span class="designer">Arya</span></p>
-    </div>
-</footer>
-
-
-
- <script src="lorem.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
